@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB1027172B3431ED00FF3E44 /* DSPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1027162B3431ED00FF3E44 /* DSPSDK.framework */; };
 		AB1027182B3431ED00FF3E44 /* DSPSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB1027162B3431ED00FF3E44 /* DSPSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AB4AE7252B3BBA4D004AF527 /* DSPSDK.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = AB4AE7242B3BBA4D004AF527 /* DSPSDK.podspec.json */; };
+		AB1C592E2B3BC80A0032D7CE /* DSPSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */; };
 		AB6DC7A42B32F21400CDDCD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7A32B32F21400CDDCD4 /* AppDelegate.m */; };
 		AB6DC7A72B32F21400CDDCD4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7A62B32F21400CDDCD4 /* SceneDelegate.m */; };
 		AB6DC7AA2B32F21400CDDCD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7A92B32F21400CDDCD4 /* ViewController.m */; };
@@ -61,7 +61,7 @@
 
 /* Begin PBXFileReference section */
 		AB1027162B3431ED00FF3E44 /* DSPSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DSPSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB4AE7242B3BBA4D004AF527 /* DSPSDK.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = DSPSDK.podspec.json; path = ../DSPSDK.podspec.json; sourceTree = "<group>"; };
+		AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DSPSDK.podspec; path = ../DSPSDK.podspec; sourceTree = "<group>"; };
 		AB6DC79F2B32F21400CDDCD4 /* DSPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6DC7A22B32F21400CDDCD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB6DC7A32B32F21400CDDCD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		AB6DC7962B32F21400CDDCD4 = {
 			isa = PBXGroup;
 			children = (
-				AB4AE7242B3BBA4D004AF527 /* DSPSDK.podspec.json */,
+				AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */,
 				AB6DC7A12B32F21400CDDCD4 /* DSPDemo */,
 				AB6DC7BD2B32F21500CDDCD4 /* DSPDemoTests */,
 				AB6DC7C72B32F21500CDDCD4 /* DSPDemoUITests */,
@@ -314,9 +314,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1C592E2B3BC80A0032D7CE /* DSPSDK.podspec in Resources */,
 				AB6DC7B22B32F21500CDDCD4 /* LaunchScreen.storyboard in Resources */,
 				AB6E34FC2B3AD287000FE368 /* DSPBundle.bundle in Resources */,
-				AB4AE7252B3BBA4D004AF527 /* DSPSDK.podspec.json in Resources */,
 				AB6DC7AF2B32F21500CDDCD4 /* Assets.xcassets in Resources */,
 				AB6DC7AD2B32F21400CDDCD4 /* Main.storyboard in Resources */,
 			);
