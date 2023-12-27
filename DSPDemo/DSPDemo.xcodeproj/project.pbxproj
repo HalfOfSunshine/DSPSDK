@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1402E5EA9C954573084E6F7A /* Pods_DSPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF7C2957C9C72AF3FE6AB1 /* Pods_DSPDemo.framework */; };
+		22F95E00C79E2E48D109DA4D /* Pods_DSPDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662649A9036C957401F6B749 /* Pods_DSPDemoTests.framework */; };
+		487D037D90C87B023356E5EA /* Pods_DSPDemo_DSPDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135440825AD368667FBD620B /* Pods_DSPDemo_DSPDemoUITests.framework */; };
 		AB1027172B3431ED00FF3E44 /* DSPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1027162B3431ED00FF3E44 /* DSPSDK.framework */; };
 		AB1027182B3431ED00FF3E44 /* DSPSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB1027162B3431ED00FF3E44 /* DSPSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AB1C592E2B3BC80A0032D7CE /* DSPSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */; };
@@ -60,6 +63,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		135440825AD368667FBD620B /* Pods_DSPDemo_DSPDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSPDemo_DSPDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2501B1AB34053AE1A33AB165 /* Pods-DSPDemo-DSPDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemo-DSPDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4669F9516EE8C6480482E6BB /* Pods-DSPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemo.debug.xcconfig"; path = "Target Support Files/Pods-DSPDemo/Pods-DSPDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4CCF7C2957C9C72AF3FE6AB1 /* Pods_DSPDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSPDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		631F1D0AE222ED4539B0DC64 /* Pods-DSPDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemoTests.release.xcconfig"; path = "Target Support Files/Pods-DSPDemoTests/Pods-DSPDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		662649A9036C957401F6B749 /* Pods_DSPDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSPDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87160C07B09D139029D78FDB /* Pods-DSPDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DSPDemoTests/Pods-DSPDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		971A812DDB6CD286743FB4C0 /* Pods-DSPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemo.release.xcconfig"; path = "Target Support Files/Pods-DSPDemo/Pods-DSPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AB1027162B3431ED00FF3E44 /* DSPSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DSPSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DSPSDK.podspec; path = ../DSPSDK.podspec; sourceTree = "<group>"; };
 		AB6DC79F2B32F21400CDDCD4 /* DSPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +101,7 @@
 		AB6E35092B3AE410000FE368 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		AB6E350C2B3AE410000FE368 /* UIView+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FunctionExpansion.h"; sourceTree = "<group>"; };
 		AB6E350D2B3AE410000FE368 /* UIButton+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FunctionExpansion.h"; sourceTree = "<group>"; };
+		B25BB71FBFBBDC7ACBA8AC03 /* Pods-DSPDemo-DSPDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemo-DSPDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1027172B3431ED00FF3E44 /* DSPSDK.framework in Frameworks */,
+				1402E5EA9C954573084E6F7A /* Pods_DSPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F95E00C79E2E48D109DA4D /* Pods_DSPDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,16 +126,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487D037D90C87B023356E5EA /* Pods_DSPDemo_DSPDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C2E571907CA8C1B8E01BC9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4669F9516EE8C6480482E6BB /* Pods-DSPDemo.debug.xcconfig */,
+				971A812DDB6CD286743FB4C0 /* Pods-DSPDemo.release.xcconfig */,
+				2501B1AB34053AE1A33AB165 /* Pods-DSPDemo-DSPDemoUITests.debug.xcconfig */,
+				B25BB71FBFBBDC7ACBA8AC03 /* Pods-DSPDemo-DSPDemoUITests.release.xcconfig */,
+				87160C07B09D139029D78FDB /* Pods-DSPDemoTests.debug.xcconfig */,
+				631F1D0AE222ED4539B0DC64 /* Pods-DSPDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB1027152B3431ED00FF3E44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				AB1027162B3431ED00FF3E44 /* DSPSDK.framework */,
+				4CCF7C2957C9C72AF3FE6AB1 /* Pods_DSPDemo.framework */,
+				135440825AD368667FBD620B /* Pods_DSPDemo_DSPDemoUITests.framework */,
+				662649A9036C957401F6B749 /* Pods_DSPDemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,6 +167,7 @@
 				AB6DC7C72B32F21500CDDCD4 /* DSPDemoUITests */,
 				AB6DC7A02B32F21400CDDCD4 /* Products */,
 				AB1027152B3431ED00FF3E44 /* Frameworks */,
+				9C2E571907CA8C1B8E01BC9E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,10 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB6DC7CE2B32F21500CDDCD4 /* Build configuration list for PBXNativeTarget "DSPDemo" */;
 			buildPhases = (
+				DC9D6E0183F7312131DB16E0 /* [CP] Check Pods Manifest.lock */,
 				AB6DC79B2B32F21400CDDCD4 /* Sources */,
 				AB6DC79C2B32F21400CDDCD4 /* Frameworks */,
 				AB6DC79D2B32F21400CDDCD4 /* Resources */,
 				AB1027192B3431ED00FF3E44 /* Embed Frameworks */,
+				AC61ECD3C02A57A4D9CB8746 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB6DC7D12B32F21500CDDCD4 /* Build configuration list for PBXNativeTarget "DSPDemoTests" */;
 			buildPhases = (
+				C29A7F5FF7C05D5BD233E426 /* [CP] Check Pods Manifest.lock */,
 				AB6DC7B62B32F21500CDDCD4 /* Sources */,
 				AB6DC7B72B32F21500CDDCD4 /* Frameworks */,
 				AB6DC7B82B32F21500CDDCD4 /* Resources */,
@@ -253,9 +289,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB6DC7D42B32F21500CDDCD4 /* Build configuration list for PBXNativeTarget "DSPDemoUITests" */;
 			buildPhases = (
+				A6227B3D51BE721408BFF687 /* [CP] Check Pods Manifest.lock */,
 				AB6DC7C02B32F21500CDDCD4 /* Sources */,
 				AB6DC7C12B32F21500CDDCD4 /* Frameworks */,
 				AB6DC7C22B32F21500CDDCD4 /* Resources */,
+				A3B09CAF8E333E1669C07C12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -337,6 +375,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3B09CAF8E333E1669C07C12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6227B3D51BE721408BFF687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSPDemo-DSPDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC61ECD3C02A57A4D9CB8746 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C29A7F5FF7C05D5BD233E426 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSPDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9D6E0183F7312131DB16E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DSPDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB6DC79B2B32F21400CDDCD4 /* Sources */ = {
@@ -525,6 +666,7 @@
 		};
 		AB6DC7CF2B32F21500CDDCD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4669F9516EE8C6480482E6BB /* Pods-DSPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -561,6 +703,7 @@
 		};
 		AB6DC7D02B32F21500CDDCD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971A812DDB6CD286743FB4C0 /* Pods-DSPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -597,6 +740,7 @@
 		};
 		AB6DC7D22B32F21500CDDCD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87160C07B09D139029D78FDB /* Pods-DSPDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -615,6 +759,7 @@
 		};
 		AB6DC7D32B32F21500CDDCD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631F1D0AE222ED4539B0DC64 /* Pods-DSPDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -633,6 +778,7 @@
 		};
 		AB6DC7D52B32F21500CDDCD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2501B1AB34053AE1A33AB165 /* Pods-DSPDemo-DSPDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -649,6 +795,7 @@
 		};
 		AB6DC7D62B32F21500CDDCD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25BB71FBFBBDC7ACBA8AC03 /* Pods-DSPDemo-DSPDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
