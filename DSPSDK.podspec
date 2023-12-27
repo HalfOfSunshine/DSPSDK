@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/HalfOfSunshine/DSPSDK.git" , :tag => s.version.to_s}
   s.resource = 'DSPSDKS/*.bundle'
 
-  s.deployment_target    = '12.0'
+  s.ios.deployment_target = '11.0'
   s.vendored_framework   = 'DSPSDKS/*.xcframework'
   s.preserve_paths =  'DSPSDKS/*.xcframework'
 end
