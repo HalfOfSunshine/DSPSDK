@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(NSString *)identifier;
 
 -(void) render;
+
 - (void)setBidEcpm:(NSInteger)ecpm;
 
 - (NSInteger)getEcpm;

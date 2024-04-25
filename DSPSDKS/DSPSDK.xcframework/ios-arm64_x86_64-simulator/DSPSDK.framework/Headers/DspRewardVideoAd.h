@@ -25,8 +25,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)DspRewardVideoAd:(DspRewardVideoAd *)dspRewardVideoAd didFailWithError:(NSError *)error;
 
-- (void)dspRewardVideoAd:(DspRewardVideoAd *)dspRewardVideoAd displayFailWithError:(nullable NSError *)error;
-
 @end
 @interface DspRewardVideoAd : DspAd
 @property(nonatomic,weak) id<DspRewardVideoAdProviderDelegate> delegate;

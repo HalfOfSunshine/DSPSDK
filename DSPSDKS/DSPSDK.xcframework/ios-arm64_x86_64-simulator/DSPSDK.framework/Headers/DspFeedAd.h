@@ -27,6 +27,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,weak) id<DspFeedAdDelegate> delegate;
 @property(nonatomic,strong,readonly) NSMutableArray<DspFeedAdView*>  *views;
 @property(nonatomic,assign) CGSize  adSize;
+
+- (void)setBidEcpm:(NSInteger)ecpm DEPRECATED_MSG_ATTRIBUTE("use DspFeedAdView setBidEcpm instead.");
+
+- (NSInteger)getEcpm DEPRECATED_MSG_ATTRIBUTE("use DspFeedAdView getEcpm instead.");;
 @end
 
 NS_ASSUME_NONNULL_END
