@@ -18,7 +18,7 @@
 #import "UIColor+MKRGB.h"
 #import "UIWindow+MKWindowTool.h"
 #import "UIWindow+MKWindowTool.h"
-#import "MKConsole.h"
+#import <MKConsole/MKConsole.h>
 
 // In this header, you should import all the public headers of your framework using statements like #import <MKTool/PublicHeader.h>
 

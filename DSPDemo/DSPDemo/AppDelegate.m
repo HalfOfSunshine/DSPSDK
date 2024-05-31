@@ -16,6 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[MKConsole shared] setPrintSystemLog:YES];
     [DSPSDKConfig registerSDK:@{@"appId": @"zj_20201014iOSDEMO",
                                 @"platform": @"ZJ",
                                 @"is_enable": @1,

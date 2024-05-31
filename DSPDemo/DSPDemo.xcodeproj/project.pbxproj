@@ -27,7 +27,6 @@
 		ABAB8CD12C09CD130007D672 /* UILabel+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C872C09CD130007D672 /* UILabel+FunctionExpansion.m */; };
 		ABAB8CD22C09CD130007D672 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C882C09CD130007D672 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		ABAB8CD32C09CD130007D672 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C892C09CD130007D672 /* UIViewController+NavigationBar.m */; };
-		ABAB8CD42C09CD130007D672 /* MKConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C8F2C09CD130007D672 /* MKConsole.m */; };
 		ABAB8CD52C09CD130007D672 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C912C09CD130007D672 /* Common.m */; };
 		ABAB8CD62C09CD130007D672 /* NSDictionary+FromModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C962C09CD130007D672 /* NSDictionary+FromModel.m */; };
 		ABAB8CD72C09CD130007D672 /* NSObject+ModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C972C09CD130007D672 /* NSObject+ModelTool.m */; };
@@ -124,8 +123,6 @@
 		ABAB8C8A2C09CD130007D672 /* UIWindow+MKWindowTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MKWindowTool.h"; sourceTree = "<group>"; };
 		ABAB8C8B2C09CD130007D672 /* UIView+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FunctionExpansion.h"; sourceTree = "<group>"; };
 		ABAB8C8C2C09CD130007D672 /* UIButton+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FunctionExpansion.h"; sourceTree = "<group>"; };
-		ABAB8C8E2C09CD130007D672 /* MKConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKConsole.h; sourceTree = "<group>"; };
-		ABAB8C8F2C09CD130007D672 /* MKConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKConsole.m; sourceTree = "<group>"; };
 		ABAB8C912C09CD130007D672 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		ABAB8C922C09CD130007D672 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		ABAB8C932C09CD130007D672 /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
@@ -303,7 +300,6 @@
 				ABAB8C7A2C09CD130007D672 /* MKTool.h */,
 				ABAB8C7B2C09CD130007D672 /* Color */,
 				ABAB8C7E2C09CD130007D672 /* UITools */,
-				ABAB8C8D2C09CD130007D672 /* LogTool */,
 				ABAB8C902C09CD130007D672 /* Common */,
 				ABAB8C942C09CD130007D672 /* QuickModel */,
 				ABAB8C992C09CD130007D672 /* FunctionExpansion */,
@@ -340,15 +336,6 @@
 				ABAB8C8C2C09CD130007D672 /* UIButton+FunctionExpansion.h */,
 			);
 			path = UITools;
-			sourceTree = "<group>";
-		};
-		ABAB8C8D2C09CD130007D672 /* LogTool */ = {
-			isa = PBXGroup;
-			children = (
-				ABAB8C8E2C09CD130007D672 /* MKConsole.h */,
-				ABAB8C8F2C09CD130007D672 /* MKConsole.m */,
-			);
-			path = LogTool;
 			sourceTree = "<group>";
 		};
 		ABAB8C902C09CD130007D672 /* Common */ = {
@@ -457,6 +444,7 @@
 				AB6DC79D2B32F21400CDDCD4 /* Resources */,
 				AB1027192B3431ED00FF3E44 /* Embed Frameworks */,
 				2CE8201051B4BC6531F991DE /* [CP] Copy Pods Resources */,
+				66094026D454046B6360819A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -495,6 +483,7 @@
 				AB6DC7C12B32F21500CDDCD4 /* Frameworks */,
 				AB6DC7C22B32F21500CDDCD4 /* Resources */,
 				2C9AA4D831AEA9550DCA1E13 /* [CP] Copy Pods Resources */,
+				CD905AB6E934C81813626961 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -613,6 +602,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		66094026D454046B6360819A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A6227B3D51BE721408BFF687 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -655,6 +661,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD905AB6E934C81813626961 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DC9D6E0183F7312131DB16E0 /* [CP] Check Pods Manifest.lock */ = {
@@ -706,7 +729,6 @@
 				ABAB8CE72C09CD130007D672 /* FeedVideoViewController.m in Sources */,
 				ABAB8CE62C09CD130007D672 /* SplashViewController.m in Sources */,
 				ABAB8CE82C09CD130007D672 /* RewardViewController.m in Sources */,
-				ABAB8CD42C09CD130007D672 /* MKConsole.m in Sources */,
 				ABAB8CD22C09CD130007D672 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				ABAB8CDA2C09CD130007D672 /* XTTimeTool.m in Sources */,
 				ABAB8CD32C09CD130007D672 /* UIViewController+NavigationBar.m in Sources */,

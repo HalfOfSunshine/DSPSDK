@@ -14,6 +14,7 @@ target 'DSPDemo' do
 
   # Pods for DSPDemo
    pod 'DSPSDK', :path => '../'
+   pod 'MKConsole'
   target 'DSPDemoTests' do
     inherit! :search_paths
     # Pods for testing
