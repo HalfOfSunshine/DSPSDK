@@ -10,8 +10,6 @@
 		1402E5EA9C954573084E6F7A /* Pods_DSPDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF7C2957C9C72AF3FE6AB1 /* Pods_DSPDemo.framework */; };
 		22F95E00C79E2E48D109DA4D /* Pods_DSPDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662649A9036C957401F6B749 /* Pods_DSPDemoTests.framework */; };
 		487D037D90C87B023356E5EA /* Pods_DSPDemo_DSPDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135440825AD368667FBD620B /* Pods_DSPDemo_DSPDemoUITests.framework */; };
-		AB1027172B3431ED00FF3E44 /* DSPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1027162B3431ED00FF3E44 /* DSPSDK.framework */; };
-		AB1027182B3431ED00FF3E44 /* DSPSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB1027162B3431ED00FF3E44 /* DSPSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AB1C592E2B3BC80A0032D7CE /* DSPSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */; };
 		AB6DC7A42B32F21400CDDCD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7A32B32F21400CDDCD4 /* AppDelegate.m */; };
 		AB6DC7A72B32F21400CDDCD4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7A62B32F21400CDDCD4 /* SceneDelegate.m */; };
@@ -23,7 +21,6 @@
 		AB6DC7BF2B32F21500CDDCD4 /* DSPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7BE2B32F21500CDDCD4 /* DSPDemoTests.m */; };
 		AB6DC7C92B32F21500CDDCD4 /* DSPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7C82B32F21500CDDCD4 /* DSPDemoUITests.m */; };
 		AB6DC7CB2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7CA2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m */; };
-		AB6E34FC2B3AD287000FE368 /* DSPBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB6E34FB2B3AD287000FE368 /* DSPBundle.bundle */; };
 		AB6E350E2B3AE410000FE368 /* UITextField+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E35002B3AE410000FE368 /* UITextField+FunctionExpansion.m */; };
 		AB6E350F2B3AE410000FE368 /* UIButton+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E35052B3AE410000FE368 /* UIButton+FunctionExpansion.m */; };
 		AB6E35102B3AE410000FE368 /* UIView+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E35062B3AE410000FE368 /* UIView+FunctionExpansion.m */; };
@@ -55,7 +52,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AB1027182B3431ED00FF3E44 /* DSPSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +67,6 @@
 		662649A9036C957401F6B749 /* Pods_DSPDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSPDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87160C07B09D139029D78FDB /* Pods-DSPDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DSPDemoTests/Pods-DSPDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		971A812DDB6CD286743FB4C0 /* Pods-DSPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemo.release.xcconfig"; path = "Target Support Files/Pods-DSPDemo/Pods-DSPDemo.release.xcconfig"; sourceTree = "<group>"; };
-		AB1027162B3431ED00FF3E44 /* DSPSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DSPSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DSPSDK.podspec; path = ../DSPSDK.podspec; sourceTree = "<group>"; };
 		AB6DC79F2B32F21400CDDCD4 /* DSPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6DC7A22B32F21400CDDCD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,7 +85,6 @@
 		AB6DC7C42B32F21500CDDCD4 /* DSPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6DC7C82B32F21500CDDCD4 /* DSPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDemoUITests.m; sourceTree = "<group>"; };
 		AB6DC7CA2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
-		AB6E34FB2B3AD287000FE368 /* DSPBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DSPBundle.bundle; sourceTree = "<group>"; };
 		AB6E35002B3AE410000FE368 /* UITextField+FunctionExpansion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FunctionExpansion.m"; sourceTree = "<group>"; };
 		AB6E35012B3AE410000FE368 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		AB6E35022B3AE410000FE368 /* UILabel+FunctionExpansion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FunctionExpansion.h"; sourceTree = "<group>"; };
@@ -109,7 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1027172B3431ED00FF3E44 /* DSPSDK.framework in Frameworks */,
 				1402E5EA9C954573084E6F7A /* Pods_DSPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +136,12 @@
 				87160C07B09D139029D78FDB /* Pods-DSPDemoTests.debug.xcconfig */,
 				631F1D0AE222ED4539B0DC64 /* Pods-DSPDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		AB1027152B3431ED00FF3E44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB1027162B3431ED00FF3E44 /* DSPSDK.framework */,
 				4CCF7C2957C9C72AF3FE6AB1 /* Pods_DSPDemo.framework */,
 				135440825AD368667FBD620B /* Pods_DSPDemo_DSPDemoUITests.framework */,
 				662649A9036C957401F6B749 /* Pods_DSPDemoTests.framework */,
@@ -185,7 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				AB6E34FF2B3AE410000FE368 /* UITools */,
-				AB6E34FA2B3AD279000FE368 /* bundles */,
 				AB6DC7A22B32F21400CDDCD4 /* AppDelegate.h */,
 				AB6DC7A32B32F21400CDDCD4 /* AppDelegate.m */,
 				AB6DC7A52B32F21400CDDCD4 /* SceneDelegate.h */,
@@ -216,14 +206,6 @@
 				AB6DC7CA2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m */,
 			);
 			path = DSPDemoUITests;
-			sourceTree = "<group>";
-		};
-		AB6E34FA2B3AD279000FE368 /* bundles */ = {
-			isa = PBXGroup;
-			children = (
-				AB6E34FB2B3AD287000FE368 /* DSPBundle.bundle */,
-			);
-			path = bundles;
 			sourceTree = "<group>";
 		};
 		AB6E34FF2B3AE410000FE368 /* UITools */ = {
@@ -354,7 +336,6 @@
 			files = (
 				AB1C592E2B3BC80A0032D7CE /* DSPSDK.podspec in Resources */,
 				AB6DC7B22B32F21500CDDCD4 /* LaunchScreen.storyboard in Resources */,
-				AB6E34FC2B3AD287000FE368 /* DSPBundle.bundle in Resources */,
 				AB6DC7AF2B32F21500CDDCD4 /* Assets.xcassets in Resources */,
 				AB6DC7AD2B32F21400CDDCD4 /* Main.storyboard in Resources */,
 			);
@@ -674,6 +655,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FDRWRXCL7C;
 				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DSPDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DSPSDKDEMO;
@@ -711,6 +693,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FDRWRXCL7C;
 				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DSPDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = DSPSDKDEMO;
