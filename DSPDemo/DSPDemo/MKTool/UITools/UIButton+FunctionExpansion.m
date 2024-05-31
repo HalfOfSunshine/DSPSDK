@@ -17,6 +17,7 @@
     if (color) [btn setTitleColor:color forState:UIControlStateNormal];
     if (backgroundColor) [btn setBackgroundColor:backgroundColor];
     if (font) btn.titleLabel.font = font;
+    btn.titleLabel.textAlignment = NSTextAlignmentCenter;
     if(normalImage) [btn setImage:normalImage forState:UIControlStateNormal];
     if(highlightedImage) [btn setImage:highlightedImage forState:UIControlStateHighlighted];
     if(backgroundImage) [btn setBackgroundImage:backgroundImage forState:UIControlStateNormal];

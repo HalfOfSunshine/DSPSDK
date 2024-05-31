@@ -26,5 +26,20 @@
 			</array>
 		</dict>
 	</dict>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>alipayauth</string>
+		<string>alipays</string>
+		<string>wechat</string>
+		<string>weixin</string>
+		<string>taobao</string>
+		<string>tbopen</string>
+		<string>openapp.jdmobile</string>
+		<string>pinduoduo</string>
+		<string>meituanwaimai</string>
+		<string>imeituan</string>
+		<string>snssdk1128</string>
+		<string>cydia</string>
+	</array>
 </dict>
 </plist>
