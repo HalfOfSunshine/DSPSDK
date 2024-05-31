@@ -30,17 +30,18 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy) NSString *lv_sd;
 @property(nonatomic,copy) NSString *shake_power;
 
+@property(nonatomic,weak) UIViewController* rootViewController;
+
 
 @property(nonatomic,weak) id<DspAdDelegate> delegate;
 
 -(void) loadAdDate:(nullable NSDictionary*) params;
 
 -(void) loadAdDataComplete:(NSArray<DspAdItem*>*) adItems;
--(void) loadAdDataError:(NSInteger) code msg:(NSString*) msg;
+-(void) loadAdDataErrorCode:(NSInteger) code msg:(NSString*) msg;
 
--(void) adClick:(DspAdItem*) adItem rootViewController:(nullable UIViewController*) rootViewController reportDic:(nullable NSDictionary *)reportDic;
--(void) adClick:(DspAdItem*) adItem reportDic:(nullable NSDictionary *)reportDic;
--(void) clickAction:(DspAdItem*) adItem withReportDic:(nullable NSDictionary *)reportDic;
+-(void) clickAction:(DspAdItem*) adItem response:(nullable NSDictionary *)response;
+-(void) clickAction:(DspAdItem*) adItem response:(nullable NSDictionary *)response rootViewController:(nullable UIViewController*) rootViewController;
 
 -(void) dspAdDetailClosed:(DspAdItem*) adItem;
 -(void) excuteDspAdDetailClosedWithView:(nullable UIView*) adView;

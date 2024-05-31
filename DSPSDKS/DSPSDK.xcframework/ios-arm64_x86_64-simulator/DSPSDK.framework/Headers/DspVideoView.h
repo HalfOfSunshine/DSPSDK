@@ -6,6 +6,8 @@
 //
 
 #import <DSPSDK/DspView.h>
+#import <DSPSDK/DspViewDelegate.h>
+#import <DSPSDK/DspImageView.h>
 #import <AVFoundation/AVFoundation.h>
 NS_ASSUME_NONNULL_BEGIN
 @class DspVideoView;
@@ -20,10 +22,12 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DspVideoView : DspView
 
 @property(nonatomic,weak) id<DspVideoViewDelegate> delegate;
+@property(nonatomic,strong) DspImageView *bgImageView;
 @property(nonatomic,copy) NSString *videoUrlStr;
 @property(nonatomic,assign) NSInteger duration;
 -(void) start;
 -(void) pause;
+-(void) play;
 -(void) close;
 
 @property (nonatomic,assign)BOOL muted;

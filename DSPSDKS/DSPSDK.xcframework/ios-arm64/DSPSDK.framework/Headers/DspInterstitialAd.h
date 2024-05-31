@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void) dspInterstitialAdDidPresentScreen:(DspInterstitialAd*) dspInterstitialAd;
 
+- (void)dspInterstitialAdDidRewardEffective:(nonnull DspInterstitialAd *)provider;
+
 - (void) dspInterstitialAdDidClick:(DspInterstitialAd*) dspInterstitialAd;
 
 - (void) dspInterstitialAdDidClose:(DspInterstitialAd*) dspInterstitialAd;

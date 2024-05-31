@@ -19,9 +19,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface DspFeedFullVideoView : DspFullVideoView
+@interface DspFeedFullVideoView : DspVideoView
 
-@property(nonatomic,weak) UIViewController* rootViewController;
+//@property(nonatomic,weak) UIViewController* rootViewController;
 
 -(void) render;
 -(NSString *)identifier;

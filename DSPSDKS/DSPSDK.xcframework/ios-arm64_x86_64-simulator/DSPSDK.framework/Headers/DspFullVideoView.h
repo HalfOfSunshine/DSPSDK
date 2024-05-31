@@ -9,20 +9,21 @@
 #import <DSPSDK/DspInfoView.h>
 #import <DSPSDK/DspVideoView.h>
 #import <DSPSDK/DspImageView.h>
+#import <DSPSDK/DspFullVideoDelegate.h>
+#import <DSPSDK/UIView+ShakeAction.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DspFullVideoView : DspView<DspVideoViewDelegate>
-
-@property(nonatomic,strong,readonly) DspImageView *bgImageView;
-@property(nonatomic,strong,readonly) DspVideoView *videoPlayView;
-@property(nonatomic,strong,readonly) DspInfoView *infoView;
-@property (strong, nonatomic) NSMutableDictionary *reportDic;
-
+//@property(nonatomic,weak) id<DspViewDelegate> delegate;
+//@property(nonatomic,strong,readonly) DspImageView *bgImageView;
+//@property(nonatomic,strong,readonly) DspVideoView *videoPlayView;
+//@property(nonatomic,strong,readonly) DspInfoView *infoView;
+//@property(nonatomic,copy) NSString *shake_power;
+@property (nonatomic,assign)BOOL videoMuted;
+@property(nonatomic,weak) id<DspFullVideoDelegate> delegate;
 @property(nonatomic,weak) UIViewController* rootViewController;
-
--(void)tiggerAccelerometer;
 
 -(void) render;
 -(void) start;

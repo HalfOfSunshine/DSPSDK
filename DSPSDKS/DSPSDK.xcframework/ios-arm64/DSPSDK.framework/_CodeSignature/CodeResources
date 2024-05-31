@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DSPSDK.h</key>
 		<data>
-		jErg77cJf75JzxmmDfujA90Qxpc=
+		GzJtayW21eYlR93rRbArgQ147Nk=
 		</data>
 		<key>Headers/DSPSDKConfig.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/DspAd.h</key>
 		<data>
-		Lq4P5qpIfVKCyUggsXRQTEn7NNQ=
+		T2wfDq9GQYwftnqSnAXIb9Oeb5M=
 		</data>
 		<key>Headers/DspAdAction.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/DspAdItem.h</key>
 		<data>
-		Yvb9XvpCXXDf27VNocNatVoUM2U=
+		dMvn6a+tf0+YglrV+pGG6Km8vRU=
 		</data>
 		<key>Headers/DspAdLayout.h</key>
 		<data>
-		Or1d9bHB6rqxeT70t539MkkbAqo=
+		7RYQYKmkPCa2R9pOR2Rft+MBJfQ=
 		</data>
 		<key>Headers/DspAdTypes.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/DspBannerView.h</key>
 		<data>
-		rIIC3Mq0xoKEgLTvHqDkstWwk7g=
+		GOd/w6yPKx10kDqiYqz6Md5J+UE=
 		</data>
 		<key>Headers/DspFeedAd.h</key>
 		<data>
@@ -58,35 +58,39 @@
 		</data>
 		<key>Headers/DspFeedAdView.h</key>
 		<data>
-		TzTCf3LDBhKBFqFsUZVjkeldbVA=
+		Z1JkLbMsG5NhpRb/8sA+8vTLbXM=
 		</data>
 		<key>Headers/DspFeedFullVideoAd.h</key>
 		<data>
-		bHWJIkVlWuT8+n9XCDbIC6bH7HY=
+		VT4oG6scY/6gXYuozoYJ1RK0Sbs=
 		</data>
 		<key>Headers/DspFeedFullVideoView.h</key>
 		<data>
-		4Fl+nrpgXZSgMAlvrv9VXdTy20Q=
+		PY4LDiAt6atpsl+3Eqw4EGM5DlM=
 		</data>
 		<key>Headers/DspFullScreenVideoAd.h</key>
 		<data>
-		pg3C/4Gf5I91wBWYS4FbAf/pP3I=
+		51clCLPe/WKDI8+7Dn0mE1we5Zk=
+		</data>
+		<key>Headers/DspFullVideoDelegate.h</key>
+		<data>
+		AQ7URFJAIuziXP8aHAMvLbvnUCA=
 		</data>
 		<key>Headers/DspFullVideoView.h</key>
 		<data>
-		CBp7huEl6qnF8YThL0oRfO2BM70=
+		zvBby4Gfq6tC4yF3eG2ykjyJCTw=
 		</data>
 		<key>Headers/DspImageView.h</key>
 		<data>
-		qgIiMPUdJi/QWG1Ts98qYw/V7BE=
+		1XHwLGW9nhpGU67Dmbdvngc3D5s=
 		</data>
 		<key>Headers/DspInfoView.h</key>
 		<data>
-		agmOS7wSZGUBXSD7tOBwzVzriT4=
+		A1BEXXh2TqB6WdiIkHHrlzVFe+w=
 		</data>
 		<key>Headers/DspInterstitialAd.h</key>
 		<data>
-		HJ5aCASBjiZL0WWXaKOoqONwQdo=
+		5JrFsmBcz6Eg6mOwPez3e2gkojE=
 		</data>
 		<key>Headers/DspObject.h</key>
 		<data>
@@ -94,7 +98,11 @@
 		</data>
 		<key>Headers/DspRewardVideoAd.h</key>
 		<data>
-		cmv9Zgqwoe3UgXZ7RBvEuNeV3rs=
+		1R5fdoWIYt41hYFdWTRzMSDXn+A=
+		</data>
+		<key>Headers/DspRewardViewDelegate.h</key>
+		<data>
+		+NG33lhFK+jI5+r5LyF/b3HT3xw=
 		</data>
 		<key>Headers/DspSplashAd.h</key>
 		<data>
@@ -102,19 +110,35 @@
 		</data>
 		<key>Headers/DspSplashView.h</key>
 		<data>
-		/SKOeir5mKB39tghekuzgpIljmU=
+		gbwuI8dq6sXEYWx1aQzLwDnWj7c=
 		</data>
 		<key>Headers/DspVideoView.h</key>
 		<data>
-		EdHgUuVmEZM+W36haExilmTfmj4=
+		HJqWeXE0NgDWGGTd6ZsJnLsZr90=
 		</data>
 		<key>Headers/DspView.h</key>
 		<data>
-		pwHuZPVioP2DISiHYhb0IiIvSdM=
+		HW6JgD+m2ebGo/5uPkXSU19++cg=
+		</data>
+		<key>Headers/DspViewBlocks.h</key>
+		<data>
+		7EgRXgbqjFc7gMaqjRGK2eS7tRU=
+		</data>
+		<key>Headers/DspViewDelegate.h</key>
+		<data>
+		F0olC8dt/eEHGA01xuRGhU/YNuE=
+		</data>
+		<key>Headers/UIView+ShakeAction.h</key>
+		<data>
+		8A3DT/RcwQqgVH0cf4pBNkm/+wA=
+		</data>
+		<key>Headers/UIView+ViewVisiable.h</key>
+		<data>
+		h1avvL8TIEjXa51h14kUgGyBW+Y=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fuWHC/bHv6ii2t7anHsTfr8MhLE=
+		9+SzUeBnPFEmWaoEJGuk5eQpTRY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -131,11 +155,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jErg77cJf75JzxmmDfujA90Qxpc=
+			GzJtayW21eYlR93rRbArgQ147Nk=
 			</data>
 			<key>hash2</key>
 			<data>
-			afGfNG9tsWrwv6xM5WcyVVMleu0HQAZfCQx/ROu3tX8=
+			arzIPoEossmtxjjJ8KET4sEu3ppXYyjzK7HwaFzqos4=
 			</data>
 		</dict>
 		<key>Headers/DSPSDKConfig.h</key>
@@ -164,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Lq4P5qpIfVKCyUggsXRQTEn7NNQ=
+			T2wfDq9GQYwftnqSnAXIb9Oeb5M=
 			</data>
 			<key>hash2</key>
 			<data>
-			seY9rCx/YwPK1oni2fTcrgB0bP9M1uKJMp6oRUgTz0M=
+			pjev8yMpnXgeABekWqLvC5iwtdQAUbZkxxbS7DfRqig=
 			</data>
 		</dict>
 		<key>Headers/DspAdAction.h</key>
@@ -197,22 +221,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Yvb9XvpCXXDf27VNocNatVoUM2U=
+			dMvn6a+tf0+YglrV+pGG6Km8vRU=
 			</data>
 			<key>hash2</key>
 			<data>
-			YMxWMlC7A0VkJXdfoFWo/lPVr22+05IgY5Blr8cdYwo=
+			sUPcCQSlS1B8kJr4CnUwjqjhnWVCm5uOoiYVL1hy0YY=
 			</data>
 		</dict>
 		<key>Headers/DspAdLayout.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Or1d9bHB6rqxeT70t539MkkbAqo=
+			7RYQYKmkPCa2R9pOR2Rft+MBJfQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ybcvd7xqol56oRXoFyuHDNixTiiT4+wKSkDFZNPChhc=
+			bk+6jBHDZlicK8lyMR6h2SX7mN6QgfhsZppGwxRsbTE=
 			</data>
 		</dict>
 		<key>Headers/DspAdTypes.h</key>
@@ -252,11 +276,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rIIC3Mq0xoKEgLTvHqDkstWwk7g=
+			GOd/w6yPKx10kDqiYqz6Md5J+UE=
 			</data>
 			<key>hash2</key>
 			<data>
-			zrI+EC/dO0eFYPqkZ9DF1NROajFxKodUPTmK+pKVxMk=
+			d7p79lr4QONPWb28NG4ZQp39GXEUsXmH8HLPiWwI/gU=
 			</data>
 		</dict>
 		<key>Headers/DspFeedAd.h</key>
@@ -274,88 +298,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TzTCf3LDBhKBFqFsUZVjkeldbVA=
+			Z1JkLbMsG5NhpRb/8sA+8vTLbXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			SA9kT3B1mDeFWWGqGHH6rlmseyUHBWD2rVjb6OVNk3o=
+			4hMyMcJP8VJX6hCWuvHHBBWPInaZxcyV36tsHJgGGis=
 			</data>
 		</dict>
 		<key>Headers/DspFeedFullVideoAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bHWJIkVlWuT8+n9XCDbIC6bH7HY=
+			VT4oG6scY/6gXYuozoYJ1RK0Sbs=
 			</data>
 			<key>hash2</key>
 			<data>
-			moTPZt7TB/PpmGUYCh3QITJN2S+JmtNrK7cul3jO6bg=
+			R5JUHCgxw0a8KfiK1wKPJIRQsUHwVEHiXmmFGrutgy8=
 			</data>
 		</dict>
 		<key>Headers/DspFeedFullVideoView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4Fl+nrpgXZSgMAlvrv9VXdTy20Q=
+			PY4LDiAt6atpsl+3Eqw4EGM5DlM=
 			</data>
 			<key>hash2</key>
 			<data>
-			72gghBB6vUKEViSI6xGOAVXeDGuWOcH77HP/8whHDXY=
+			bMLz6IjDaah8raGtL1HhOq0f0BS3xnW+053/P7CVTcI=
 			</data>
 		</dict>
 		<key>Headers/DspFullScreenVideoAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pg3C/4Gf5I91wBWYS4FbAf/pP3I=
+			51clCLPe/WKDI8+7Dn0mE1we5Zk=
 			</data>
 			<key>hash2</key>
 			<data>
-			o4qT1t+3CW7RuATB5Yvu81RDaFAltcVRm1gg5dBHEqg=
+			ihVKS0kyTxWYgQ5wr8K5xSau9FoTlOngy5Y8aOr4V18=
+			</data>
+		</dict>
+		<key>Headers/DspFullVideoDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AQ7URFJAIuziXP8aHAMvLbvnUCA=
+			</data>
+			<key>hash2</key>
+			<data>
+			JJvbabwdczg4QAgY/5seKuy0K/0AhX5GcZBWu/Z0lgc=
 			</data>
 		</dict>
 		<key>Headers/DspFullVideoView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CBp7huEl6qnF8YThL0oRfO2BM70=
+			zvBby4Gfq6tC4yF3eG2ykjyJCTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			55lNBZSt35yXiAldmRxIHqSUkkxAyHWlWLaPsGmQYhg=
+			m2IEY7bTxS5cjdn5NoIxjjBkSZwquevGR5FHYgal3Bo=
 			</data>
 		</dict>
 		<key>Headers/DspImageView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qgIiMPUdJi/QWG1Ts98qYw/V7BE=
+			1XHwLGW9nhpGU67Dmbdvngc3D5s=
 			</data>
 			<key>hash2</key>
 			<data>
-			3e5cYalcNwqYlBCv2K00vY8Oq0P7Yhg12ijCFFC7gZw=
+			W76LUD1OKQRTdOrCrlPnVj7e+KpzNRE+1U5kZ8Fk8Bk=
 			</data>
 		</dict>
 		<key>Headers/DspInfoView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			agmOS7wSZGUBXSD7tOBwzVzriT4=
+			A1BEXXh2TqB6WdiIkHHrlzVFe+w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZlpxL7983tGEBXXE48yHZWPwNNCe6T8h7j3agPqBIrI=
+			PzCDPFYfaX6QHojJRYOVjpKFIRWTO9rXUHGDwIfSuoQ=
 			</data>
 		</dict>
 		<key>Headers/DspInterstitialAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HJ5aCASBjiZL0WWXaKOoqONwQdo=
+			5JrFsmBcz6Eg6mOwPez3e2gkojE=
 			</data>
 			<key>hash2</key>
 			<data>
-			vXqpjGHtIGDFULJmQHPiUw+9YDBw/PUmBUG+XmMACGI=
+			IPUs8CjkJhjkJi7X0HsYel7yMvxUjlvkgfQ3aa86eE0=
 			</data>
 		</dict>
 		<key>Headers/DspObject.h</key>
@@ -373,11 +408,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cmv9Zgqwoe3UgXZ7RBvEuNeV3rs=
+			1R5fdoWIYt41hYFdWTRzMSDXn+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			t5fF/8M3gmIJE+tAKLv6yNcz05ZpIwPukWnqZ6GWbhw=
+			rmsQCAYZIhITFMvFyjNSRKLsWjdWhcqwFWzIhzGbkZw=
+			</data>
+		</dict>
+		<key>Headers/DspRewardViewDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+NG33lhFK+jI5+r5LyF/b3HT3xw=
+			</data>
+			<key>hash2</key>
+			<data>
+			PFnT9U96aKZaDKCQRvU8iz9uK2BxvCniMcq+y7T0R7g=
 			</data>
 		</dict>
 		<key>Headers/DspSplashAd.h</key>
@@ -395,33 +441,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/SKOeir5mKB39tghekuzgpIljmU=
+			gbwuI8dq6sXEYWx1aQzLwDnWj7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			wpPPWRHJGzWo26qCoWE0W3ZMQ7XIINW7ZuCpLCOoFqI=
+			Yz8VfEo69tVlOA2zYl+WoGvCjVSuDfO0WQ1/GdgzHPM=
 			</data>
 		</dict>
 		<key>Headers/DspVideoView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EdHgUuVmEZM+W36haExilmTfmj4=
+			HJqWeXE0NgDWGGTd6ZsJnLsZr90=
 			</data>
 			<key>hash2</key>
 			<data>
-			HkB+idnHNI5rV8hwzVCQ0ASfeyNjFb+Jhg2hT683+0A=
+			E6wIDYXNYhTRpuLl19IT/82liYU/9XBQ9qbHcPSTNyw=
 			</data>
 		</dict>
 		<key>Headers/DspView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pwHuZPVioP2DISiHYhb0IiIvSdM=
+			HW6JgD+m2ebGo/5uPkXSU19++cg=
 			</data>
 			<key>hash2</key>
 			<data>
-			H5dGo5WGnGQctP2kMokULPknsBPItto2ca1g4g+Szyg=
+			tmw2wcXvhi3ruTkJNLpDK/2aulp689Yf9ballivL1xg=
+			</data>
+		</dict>
+		<key>Headers/DspViewBlocks.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7EgRXgbqjFc7gMaqjRGK2eS7tRU=
+			</data>
+			<key>hash2</key>
+			<data>
+			ghBFw859HMxLoIF3AJUAF1C3jeQg1t+PGKKzerVIBzA=
+			</data>
+		</dict>
+		<key>Headers/DspViewDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F0olC8dt/eEHGA01xuRGhU/YNuE=
+			</data>
+			<key>hash2</key>
+			<data>
+			J70V+aYnMFV0rB22SCWG8a1l7Po0nB5oEpRs+1NQQNc=
+			</data>
+		</dict>
+		<key>Headers/UIView+ShakeAction.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8A3DT/RcwQqgVH0cf4pBNkm/+wA=
+			</data>
+			<key>hash2</key>
+			<data>
+			KqTgrNg+mxQRG+sPlXAZ93PUjeXzL3zyWSL6sCyXNUY=
+			</data>
+		</dict>
+		<key>Headers/UIView+ViewVisiable.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h1avvL8TIEjXa51h14kUgGyBW+Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			ilVI2EhAd/0AsY5r+9uHyxtWJrvqzi+cE+CbwLeC0zE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

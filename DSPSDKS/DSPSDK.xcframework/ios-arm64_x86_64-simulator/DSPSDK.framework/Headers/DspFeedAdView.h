@@ -6,6 +6,7 @@
 //
 
 #import <DSPSDK/DspView.h>
+#import <DSPSDK/DspViewDelegate.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @class DspFeedAdView;
@@ -19,13 +20,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface DspFeedAdView : DspView//<ZJFeedAdViewProtocol>
+@interface DspFeedAdView : DspView
 
 @property(nonatomic,weak) id<DspFeedAdViewDelegate> delegate;
 -(NSString *)identifier;
 
 -(void) render;
-
 - (void)setBidEcpm:(NSInteger)ecpm;
 
 - (NSInteger)getEcpm;

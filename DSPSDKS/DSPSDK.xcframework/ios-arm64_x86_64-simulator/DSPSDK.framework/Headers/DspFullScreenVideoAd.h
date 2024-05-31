@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 //广告展示
 - (void)dspFullScreenVideoAdDidShow:(DspFullScreenVideoAd *)ad;
 
+- (void)dspFullScreenVideoDidRewardEffective:(nonnull DspFullScreenVideoAd *)ad;
 //广告点击
 - (void)dspFullScreenVideoAdDidClick:(DspFullScreenVideoAd *)ad;
 
@@ -37,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)dspFullScreenVideoAdDetailDidPresent:(DspFullScreenVideoAd *)ad;
 
 //广告详情页关闭
-//- (void)dspFullScreenVideoAdDetailDidClose:(DspFullScreenVideoAd *) ad;
+- (void)dspFullScreenVideoAdDetailDidClose:(DspFullScreenVideoAd *) ad;
 
 @end
 

@@ -456,7 +456,7 @@
 				AB6DC79C2B32F21400CDDCD4 /* Frameworks */,
 				AB6DC79D2B32F21400CDDCD4 /* Resources */,
 				AB1027192B3431ED00FF3E44 /* Embed Frameworks */,
-				AC61ECD3C02A57A4D9CB8746 /* [CP] Copy Pods Resources */,
+				2CE8201051B4BC6531F991DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -494,7 +494,7 @@
 				AB6DC7C02B32F21500CDDCD4 /* Sources */,
 				AB6DC7C12B32F21500CDDCD4 /* Frameworks */,
 				AB6DC7C22B32F21500CDDCD4 /* Resources */,
-				A3B09CAF8E333E1669C07C12 /* [CP] Copy Pods Resources */,
+				2C9AA4D831AEA9550DCA1E13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -579,7 +579,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A3B09CAF8E333E1669C07C12 /* [CP] Copy Pods Resources */ = {
+		2C9AA4D831AEA9550DCA1E13 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -594,6 +594,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CE8201051B4BC6531F991DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A6227B3D51BE721408BFF687 /* [CP] Check Pods Manifest.lock */ = {
@@ -616,23 +633,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AC61ECD3C02A57A4D9CB8746 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C29A7F5FF7C05D5BD233E426 /* [CP] Check Pods Manifest.lock */ = {

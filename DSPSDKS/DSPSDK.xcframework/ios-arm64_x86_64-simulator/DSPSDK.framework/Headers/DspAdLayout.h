@@ -13,6 +13,23 @@ extern NSString * _Nonnull  const Dsp_Location_Left;
 extern NSString * _Nonnull  const Dsp_Location_Top;
 extern NSString * _Nonnull  const Dsp_Location_Right;
 extern NSString * _Nonnull  const Dsp_Location_Bottom;
+
+extern NSString * _Nonnull  const Dsp_Location_img_txtfloat;
+extern NSString * _Nonnull  const Dsp_Location_video_txtfloat;
+extern NSString * _Nonnull  const Dsp_Location_portrait;
+
+
+extern NSString * _Nonnull  const Dsp_Location_upimg_downtxt;
+extern NSString * _Nonnull  const Dsp_Location_upvideo_downcard;
+extern NSString * _Nonnull  const Dsp_Location_landscape;
+
+
+extern NSString * _Nonnull  const Dsp_Location_leftimg_righttxt;
+extern NSString * _Nonnull  const Dsp_Location_leftvideo_rightcard;
+
+extern NSString * _Nonnull  const Dsp_Location_video_txtdown;
+extern NSString * _Nonnull  const Dsp_Location_img_txtdown;
+
 @interface DspAdLayout : DspObject
 
 @property(nonatomic,copy) NSString *content_edge;

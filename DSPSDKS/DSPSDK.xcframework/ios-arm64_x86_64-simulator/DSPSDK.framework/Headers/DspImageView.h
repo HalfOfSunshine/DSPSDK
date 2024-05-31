@@ -6,13 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DSPSDK/DspViewBlocks.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DspImageView : UIImageView
 - (void)dsp_setImageWithURLStr:(NSString *)urlStr;
--(void)tiggerAccelerometer;
-
-@property (strong, nonatomic) NSMutableDictionary *reportDic;
 @end
 
 NS_ASSUME_NONNULL_END

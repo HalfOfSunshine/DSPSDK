@@ -6,6 +6,7 @@
 //
 
 #import <DSPSDK/DspView.h>
+#import <DSPSDK/DspViewDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -23,10 +24,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy) NSString *imageUrl;
 @property(nonatomic,assign) NSInteger shkipTimes;
 
-@property(nonatomic,assign) BOOL areaEnable;
+@property(nonatomic,assign) BOOL area_enable;
 @property(nonatomic,copy) NSString *shake_power;
 @property(nonatomic,weak) id<DspSplashViewDelegate> delegate;
--(void)startAccelerometer;
+
+#warning show方法统一，放到协议中
+#warning 但是splash没有show方法，媒体直接addsubView操作。
 @end
 
 NS_ASSUME_NONNULL_END
