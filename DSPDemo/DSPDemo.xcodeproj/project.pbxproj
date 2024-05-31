@@ -443,8 +443,6 @@
 				AB6DC79C2B32F21400CDDCD4 /* Frameworks */,
 				AB6DC79D2B32F21400CDDCD4 /* Resources */,
 				AB1027192B3431ED00FF3E44 /* Embed Frameworks */,
-				2CE8201051B4BC6531F991DE /* [CP] Copy Pods Resources */,
-				66094026D454046B6360819A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -482,8 +480,6 @@
 				AB6DC7C02B32F21500CDDCD4 /* Sources */,
 				AB6DC7C12B32F21500CDDCD4 /* Frameworks */,
 				AB6DC7C22B32F21500CDDCD4 /* Resources */,
-				2C9AA4D831AEA9550DCA1E13 /* [CP] Copy Pods Resources */,
-				CD905AB6E934C81813626961 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -568,57 +564,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C9AA4D831AEA9550DCA1E13 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2CE8201051B4BC6531F991DE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		66094026D454046B6360819A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo/Pods-DSPDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A6227B3D51BE721408BFF687 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -661,23 +606,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD905AB6E934C81813626961 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DSPDemo-DSPDemoUITests/Pods-DSPDemo-DSPDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DC9D6E0183F7312131DB16E0 /* [CP] Check Pods Manifest.lock */ = {
