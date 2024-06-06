@@ -55,6 +55,7 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 
 @property (nonatomic, assign) BOOL can_cache_video;
 
+@property (nonatomic, assign) BOOL disable_sdk_assetion;
 
 @end
 
